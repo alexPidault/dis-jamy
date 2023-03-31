@@ -133,12 +133,23 @@
 
 
 
+
 body {
   background: #FF9F6D;
   text-align: center;
   font-family: 'Satoshi-BlackItalic';
 }
-
+.wrapper-jamy-textarea-input{
+  position:relative;
+  
+}
+.jamy-logo{
+  width:340px;
+  height:220px;
+  display:block;
+  position:absolute;
+  background-image:url('../images/jamy-logo.png');
+}
 
 
 #dynamic-placeholder {
