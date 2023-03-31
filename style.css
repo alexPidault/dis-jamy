@@ -148,6 +148,7 @@ body {
   height:220px;
   display:block;
   position:absolute;
+  background:red;
   background-image:url("./images/jamy-logo.png");
 }
 
