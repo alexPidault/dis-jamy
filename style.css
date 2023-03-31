@@ -173,6 +173,27 @@ body {
    border-radius: 15px;
 }
 
+.divider{
+
+}
+
+.divider:before{
+
+}
+.divider:after{
+
+}
+
+.rapper-suggestedTopic{
+
+}
+h2{
+
+}
+.topic-button{
+
+}
+
 
 #dynamic-placeholder {
   text-align: left;
