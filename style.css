@@ -141,28 +141,34 @@ body {
 }
 .wrapper-jamy-textarea-input{
   position:relative;
-  
+  margin-top: 200px;
 }
 .jamy-logo{
   width:340px;
   height:220px;
   display:block;
   position:absolute;
-  background:red;
+  /* background:red; */
   background-image:url("./images/jamy-logo.png");
+  background-size: cover;
+  top: -133px;
+  right: 0px;
 }
 
 
 #dynamic-placeholder {
-  v-align: center;
+  text-align: left;
+  vertical-align: top;
   height: 50px;
   width: 100%;
   font-size: 30px;
   background: #000;
   border-radius: 5px;
-  border: none; 
+  border: none;
   margin: 50px auto;
   padding: 10px;
+  padding-top: -14px;
+  min-height: 232px;
   color: #fff;
   outline: none !important;
 }
