@@ -179,6 +179,7 @@ body {
   height: 50px;
   line-height: 50px;
   text-align: center;
+  margin: auto;
 }
 
 #or::before,
@@ -206,10 +207,16 @@ h2{
 
 }
 .topic-button{
-    padding: 10px 5px;
+    padding: 16px 16px;
     display: inline-block;
     background: red;
     float: left;
+    background: #FFFFFF;
+    box-shadow: -5.21283px 5.21283px 0px #000000;
+    border-radius: 8.6474px;
+    text-decoration: none;
+    color: 000000;
+    margin-right: 24px;
 }
 
 
@@ -227,6 +234,7 @@ h2{
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 100px;
   min-height: 230px;
   color: #000;
   outline: none !important;
