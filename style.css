@@ -198,14 +198,18 @@ body {
 }
 
 
-.rapper-suggestedTopic{
-
+.wrapper-suggestedTopic{
+ max-width: 800px;
+  margin:auto;
 }
 h2{
 
 }
 .topic-button{
-
+    padding: 10px 5px;
+    display: inline-block;
+    background: red;
+    float: left;
 }
 
 
