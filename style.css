@@ -173,16 +173,30 @@ body {
    border-radius: 15px;
 }
 
-.divider{
-
+#or {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
 }
 
-.divider:before{
-
+#or::before,
+#or::after {
+  position: absolute;
+  width: 130px;
+  height: 1px;  
+  top: 24px;  
+  background-color: #aaa;
+  content: '';
 }
-.divider:after{
-
+#or::before {
+  left: 0;
 }
+#or::after {
+  right: 0;
+}
+
 
 .rapper-suggestedTopic{
 
