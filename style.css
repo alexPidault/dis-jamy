@@ -156,7 +156,7 @@ body {
 #dynamic-placeholder {
   v-align: center;
   height: 50px;
-  width: 50%;
+  width: 100%;
   font-size: 30px;
   background: #000;
   border-radius: 5px;
