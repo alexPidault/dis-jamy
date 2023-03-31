@@ -1,2 +1,15 @@
-<h1>Helooooooo</h1>
-<h2>tototot</h2>
+<body>
+  <input type="text" id="dynamic-placeholder"  />
+  <script>
+    window.onload = function() {
+      var sp = new SuperPlaceholder({
+        placeholders: ["john.doe@gmail.com", "foo@bar.com"],
+        preText: "Eg. ",
+        stay: 1000,
+        speed: 100,
+        element: '#dynamic-placeholder'
+      });
+      sp.init();
+    }
+  </script>
+</body>
