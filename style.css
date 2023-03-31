@@ -142,6 +142,9 @@ body {
 .wrapper-jamy-textarea-input{
   position:relative;
   margin-top: 200px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 200px;
 }
 .jamy-logo{
   width: 350px;
